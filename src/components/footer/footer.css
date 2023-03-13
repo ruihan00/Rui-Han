@@ -1,0 +1,12 @@
+.footer-container {
+    height: 15vh;
+    background-color: rgb(44, 51, 51);
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    color: #8c8c8c;
+    margin-bottom: 2vh;
+}

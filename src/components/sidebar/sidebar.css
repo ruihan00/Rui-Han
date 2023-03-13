@@ -1,0 +1,22 @@
+.sidebar {
+    position: fixed;
+
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 3;
+}
+
+.sidebar-icon {
+    font-size: 2vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+.sidebar-menu {
+    padding-left: 1vw;
+    padding-top: 2vw;
+}
+
+.sidebar-menu-item {
+
+}

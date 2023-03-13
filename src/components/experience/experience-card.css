@@ -1,0 +1,107 @@
+.experience-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 0;
+    width: 50vw;
+}
+
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 2vh 0 ;
+}
+
+.experience-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+.experience-card-company {
+    font-size: 2vw;
+    font-weight: 600;
+}
+.experience-card-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.experience-card-title {
+    font-weight: 400;
+}
+
+.experience-card-date {
+    opacity: 0.5;
+}
+
+.experience-card-line {
+    border-right: 2px rgb(0,0,0, 0.5) solid;
+    display: flex;
+    align-items: start;
+    margin: 0 2vw;
+    
+}
+
+.experience-card-circle {
+    position: relative;
+    left: 55%;
+    background-color: #F2F3F5;
+    top: 3.5vh;
+}
+
+.experience-card-desc {
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.experience-card-desc-line {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.experience-card-techstacks {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.experience-card-techstack-icon {
+    width: 3vw;
+}
+
+.experience-card-detail {
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 2vh;
+    padding-right: 2vw;
+    transition: all 1s ease-in-out;
+    max-height: 30vh;
+}
+
+.hide {
+    max-height: 0;
+    visibility: hidden;
+}
+
+.down {
+    transform: rotate(180deg);
+}
+
+.experience-expand-btn {
+    transition: transform 1s;
+    color: rgb(40, 40, 40, 0.6);
+    font-size: 1.2vw;
+}
+
+.experience-expand-btn:hover {
+    color: rgb(40, 40, 40);
+}

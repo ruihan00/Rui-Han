@@ -1,0 +1,29 @@
+.techstack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 2.6vw;
+    transition: all 0.5s;
+}
+
+.techstack:hover {
+    transform: rotateY(360deg);
+}
+
+.techstack-icon {
+    width: 2.5vw;
+}
+
+.techstack-name {
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.none {
+    visibility: hidden;
+}
+
+.down {
+    transform: rotate(180deg);
+}

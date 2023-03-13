@@ -1,0 +1,35 @@
+.project-container {
+    min-height: 70vh;
+    background-color: #F2F3F5 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    flex-direction: column;
+}
+
+.project-header {
+    padding: 5vh;
+
+}
+
+.project-card-container {
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2vw;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 0
+}
+
+.project-divider {  
+    height: 20vh;
+    background-color: #F2F3F5 ;
+    position: relative;
+    margin: -5vh 0 -5vh -1vw;
+    rotate: -3deg;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+
+  }

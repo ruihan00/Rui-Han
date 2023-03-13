@@ -1,0 +1,63 @@
+.experience-container {
+    min-height: 70vh;
+    background-color: #F2F3F5 ;
+    display: flex;
+    padding: 10vh 10vw;
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 15vh;
+
+
+}
+.experience-header {
+    padding: 5vh;
+}
+.experience-divider {  
+    height: 20vh;
+    background-color: #F2F3F5 ;
+    position: relative;
+    rotate: 2deg;
+    margin: -5vh 0 -5vh -1vw;
+    box-shadow: #786D6D 0px -20px 30px -10px;;
+
+  }
+  
+.experience-inner {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    gap: 2vw;
+    margin: 0 auto;
+    z-index: 2;
+    background-color: rgb(242, 243, 245, 0.7) ;
+
+
+}
+
+.experience-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-nav-item {
+    text-align: left;
+    color: rgb(0,0,0,0.7);
+}
+
+.curr {
+    color: rgb(0,0,0);
+}
+
+
+@media(min-width:850px) {
+
+.experience-nav-item {
+    font-size: 2vw;
+}
+
+}
+@media(max-width:850px) {
+
+}

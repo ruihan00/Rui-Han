@@ -1,0 +1,78 @@
+.project-card {
+    background: linear-gradient(45deg, #dbdbdb, #cccccc, #e0e0e0);
+    border-radius: 10px;
+    width: 25vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    box-shadow: grey 0px 20px 30px -10px;;
+}
+.project-card-name {
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+.project-card-desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1vh 1vw;
+    gap: 1.5vh;
+}
+
+.project-card-desc {
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.project-card-img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.project-card-img-container {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.project-card-header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.project-card-link-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 0.5vw;
+}
+
+.project-card-link {
+    border: 2px black solid;
+    padding: 1px 5px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.3s linear;
+    color: black;
+    text-decoration: none;
+}
+
+.project-card-link:hover {
+    background-color: rgb(0,0,0,0.8);
+    color: white;
+}
+
+.project-card-techstack-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3vw;
+    flex-wrap: wrap;
+}
