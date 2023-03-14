@@ -22,6 +22,7 @@
 @media(min-width:850px) {
 
     .techstack {
+        width: 2.5vw;
         max-width: 2.6vw;
     }
 }
@@ -30,6 +31,7 @@
 @media(max-width:850px) {
 
     .techstack {
+        width: 6.9vw;
         max-width: 7vw;
     }
 }
