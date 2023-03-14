@@ -24,7 +24,6 @@ h1 {
 }
 
 .inner-container {
-    width: 40vw;
     display: flex;
     flex-direction: column;
     background-color: rgb(44, 51, 51);
@@ -88,13 +87,18 @@ h1 {
 }
 
 .contact {
-    color: rgb(196, 192, 192);
+    color: rgb(196, 192, 192,0.8);
     display: flex;
     flex-direction: row;
     gap: 1vw;
     padding-top: 2vh;
     transition: 1s;
 
+}
+
+.contact-icon {
+    text-decoration: none;
+    color: rgb(196, 192, 192,0.8);
 }
 
 .contact-icon:hover {
@@ -113,20 +117,52 @@ h1 {
     }
     .contact {
         font-size: 2vw;
+        gap: 1vw;
     }
 
+    .inner-container {
+        width: 40vw;
+    }
+    .title {
+        font-size: 3vw;
+    }
+
+    .intro-1 {
+        font-size: 2vw;
+    }
+
+    .contact-icon {
+        font-size: 3vw;
+    }
 
 }
 @media(max-width:850px) {
     .intro {
         width: 80vw;
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .intro-1 {
         margin-right: 7vw;
     }
     .contact {
         font-size: 3vw;
+        gap: 3vw;
+    }
+    .inner-container {
+        width: 90vw;
+    }
+    .title {
+        font-size: 9vw;
+    }
+    .wave {
+        font-size: 15vw;
     }
 
+    .intro-1 {
+        font-size: 5vw;
+    }
+
+    .contact-icon {
+        font-size: 8vw;
+    }
 }

@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: row;
     gap: 2vw;
+    align-items: center;
 }
 
 .experience-card-title {
@@ -41,8 +42,7 @@
 .experience-card-line {
     border-right: 2px rgb(0,0,0, 0.5) solid;
     display: flex;
-    align-items: start;
-    margin: 0 2vw;
+    align-items: flex-start;
     
 }
 
@@ -99,9 +99,65 @@
 .experience-expand-btn {
     transition: transform 1s;
     color: rgb(40, 40, 40, 0.6);
-    font-size: 1.2vw;
 }
 
 .experience-expand-btn:hover {
     color: rgb(40, 40, 40);
+}
+
+@media(min-width:850px) {
+    .experience-card-container {
+        width: 50vw;
+    }
+
+    .experience-card-line {
+        margin: 0 2vw;
+    }
+
+    .experience-card-company {
+        font-size: 1.7vw;
+    }
+
+    .experience-card-date {
+        font-size: 1.2vw;
+    }
+    .experience-card-title {
+        font-size: 1.2vw;
+    }
+
+    .experience-card-detail {
+        font-size: 1.2vw;
+    }
+
+    .experience-expand-btn {
+        font-size: 1.2vw;
+    }
+}
+
+
+@media(max-width:850px) {
+    .experience-card-container {
+        width: 90vw;
+    }
+
+    .experience-card-company {
+        font-size: 6vw;
+    }
+    .experience-card-title {
+        font-size: 4vw;
+    }
+    .experience-card-date {
+        font-size: 4vw;
+    }
+
+    .experience-card-line {
+        margin: 0 5vw;
+    }
+
+    .experience-card-detail {
+        font-size: 3vw;
+    }
+    .experience-expand-btn {
+        font-size: 4vw;
+    }
 }

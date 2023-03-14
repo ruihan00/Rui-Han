@@ -14,14 +14,17 @@ function Title() {
                     <p className="intro-1">I am a second year Computer Science undergraduate at National University of Singapore. </p>
                 </div>
                 <div className="contact">
-                    <a className="contact-icon"><i class="fa-brands fa-github"></i></a>
-                    <a className="contact-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a className="contact-icon" href="https://github.com/ruihan00"><i class="fa-brands fa-github"></i></a>
+                    <a className="contact-icon" href="www.linkedin.com/in/lau-rui-han"><i class="fa-brands fa-linkedin"></i></a>
 
                 </div>
             </div>
 
-            </div>
-            <div className="title-divider">
+        </div>
+        <div>
+            
+        </div>
+        <div className="title-divider">
 
         </div>
 

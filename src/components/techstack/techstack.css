@@ -2,16 +2,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 2.6vw;
     transition: all 0.5s;
 }
 
 .techstack:hover {
     transform: rotateY(360deg);
-}
-
-.techstack-icon {
-    width: 2.5vw;
 }
 
 .techstack-name {
@@ -24,6 +19,17 @@
     visibility: hidden;
 }
 
-.down {
-    transform: rotate(180deg);
+@media(min-width:850px) {
+
+    .techstack {
+        max-width: 2.6vw;
+    }
+}
+
+
+@media(max-width:850px) {
+
+    .techstack {
+        max-width: 7vw;
+    }
 }

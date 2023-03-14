@@ -1,7 +1,6 @@
 .project-card {
     background: linear-gradient(45deg, #dbdbdb, #cccccc, #e0e0e0);
     border-radius: 10px;
-    width: 25vw;
     color: black;
     display: flex;
     flex-direction: column;
@@ -9,7 +8,6 @@
     box-shadow: grey 0px 20px 30px -10px;;
 }
 .project-card-name {
-    font-size: 1.7vw;
     font-weight: 600;
 }
 
@@ -23,7 +21,6 @@
 
 .project-card-desc {
     text-align: left;
-    font-size: 1.2vw;
     font-weight: 400;
 }
 
@@ -73,6 +70,50 @@
 .project-card-techstack-container {
     display: flex;
     flex-direction: row;
-    gap: 0.3vw;
     flex-wrap: wrap;
+}
+
+@media(min-width:850px) {
+    .project-card {
+        width: 20vw
+    }
+
+    .project-card-name {
+        font-size: 1.7vw;
+    }
+
+    .project-card-desc {
+        font-size: 1.2vw;
+    }
+
+    .project-card-link {
+        font-size: 1.2vw;
+    }
+
+    .project-card-techstack-container {
+        gap: 0.3vw;
+    }
+}
+
+
+@media(max-width:850px) {
+    .project-card {
+        width: 80vw
+    }
+
+    .project-card-name {
+        font-size: 4vw;
+    }
+
+    .project-card-desc {
+        font-size: 3vw;
+    }
+
+    .project-card-link {
+        font-size: 3vw;
+    }
+
+    .project-card-techstack-container {
+        gap: 1vw;
+    }
 }

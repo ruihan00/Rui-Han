@@ -6,6 +6,7 @@
     justify-content: center;
     z-index: 2;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .project-header {
@@ -18,7 +19,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 2vw;
+    gap: 3vw;
     flex-grow: 1;
     flex-wrap: wrap;
     padding: 0
