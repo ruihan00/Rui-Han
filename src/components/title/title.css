@@ -26,7 +26,8 @@ h1 {
 .inner-container {
     display: flex;
     flex-direction: column;
-    background-color: rgb(44, 51, 51);
+    background-color: transparent;
+    z-index: 2;
 }
 
 .title {
