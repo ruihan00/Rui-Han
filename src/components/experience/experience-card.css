@@ -32,11 +32,11 @@
 }
 
 .experience-card-title {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .experience-card-date {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .experience-card-line {
@@ -84,7 +84,7 @@
     gap: 2vh;
     padding-right: 2vw;
     transition: all 1s ease-in-out;
-    max-height: 30vh;
+    max-height: 40vh;
 }
 
 .hide {
@@ -126,7 +126,7 @@
     }
 
     .experience-card-detail {
-        font-size: 1.2vw;
+        font-size: 1.3vw;
     }
 
     .experience-expand-btn {
@@ -155,7 +155,7 @@
     }
 
     .experience-card-detail {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
     .experience-expand-btn {
         font-size: 4vw;

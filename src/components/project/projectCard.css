@@ -15,7 +15,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 1vh 1vw;
     gap: 1.5vh;
 }
 
@@ -93,6 +92,11 @@
     .project-card-techstack-container {
         gap: 0.3vw;
     }
+
+    .project-card-desc-container {
+        padding: 1vh 1vw;
+
+    }
 }
 
 
@@ -102,11 +106,11 @@
     }
 
     .project-card-name {
-        font-size: 4vw;
+        font-size: 4.8vw;
     }
 
     .project-card-desc {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     .project-card-link {
@@ -115,5 +119,10 @@
 
     .project-card-techstack-container {
         gap: 1vw;
+    }
+
+    .project-card-desc-container {
+        padding: 1vh 3vw;
+
     }
 }
