@@ -7,7 +7,7 @@ function Techstack(props) {
     const link = techstacks[tech]
     return <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="techstack">
         <img className="techstack-icon" src={link}/>
-        {hover ? <p className="techstack-name">{tech}</p>: <p className="none">{tech}</p>}
+         <p className={hover ? "techstack-name" : "none"}>{tech}</p>
     </div>
 }
 

@@ -14,7 +14,7 @@ const homepal = {
     "name": "Homepal",
     "title": "Fullstack Developer Intern",
     "start": "May 2022",
-    "end": "Present",
+    "end": "Jun 2023",
     "description": ["Worked in a team of 3 to develop a web dashboard for an eldercare monitoring system using Reactjs and NodeJs",
         "Implemented responsive design for the web dashboard to enhance user experience",
         "Developed a graphic user interface to be used on raspberry pi to simplify the process of verifying data from elderly monitoring sensors using Python Tkinter library",
@@ -22,5 +22,16 @@ const homepal = {
     "techstacks": ["python", "react", "firebase", "html", "css"]
 }
 
-const experiences = [homepal, duinocode]
+const govtech = {
+    "id": "3",
+    "name": "Govtech",
+    "title": "Software Engineer Intern",
+    "start": "May 2023",
+    "end": "Present",
+    "description": ["to be added.."],
+    "techstacks": ["react", "PostgreSQL", "javascript", "figma"]
+}
+
+
+const experiences = [homepal, duinocode, govtech]
 export default experiences;

@@ -13,7 +13,7 @@ function ExperienceCard(props) {
     }
     function ExperienceDesc(desc) {
         return <div className="experience-card-desc-line">
-            <i class="fa-sharp fa-solid fa-caret-right"></i>
+            <i class="fa-sharp fa-solid fa-caret-right experience-card-caret"></i>
             <p>{desc}</p>
         </div>
     }

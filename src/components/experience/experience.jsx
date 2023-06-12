@@ -1,17 +1,17 @@
 import React from "react";
 import "./experience.css"
 import experiences from "./experience-data";
-import { useState } from "react";
+import { useState, forwardRef } from "react";
 import ExperienceCard from "./experience-card";
 
-function Experience() {
+function Experience(props) {
 
-    return <div className="container">
+    return <div ref={props.refTag} className="container">
         <div className="experience-container">
             <h1 className="experience-header">Experiences</h1>
             <div className="experience-inner">
                 <div className="experience-nav">
-                    {experiences.map(exp => <ExperienceCard data = {exp}/>)}
+                    {experiences.map(exp => <ExperienceCard data={exp} />)}
                 </div>
                 {/* <div className="experience-details">
                     <div >
@@ -37,7 +37,14 @@ function Experience() {
 
                 </div> */}
             </div>
+            <div className="experience-down-container">
+            <div className="experience-down-btn" onClick={() => props.projectRef.current.scrollIntoView({ behavior: "smooth" })}>
+                <i class="fa-solid fa-circle-chevron-down fa-bounce fa-2xl"></i>
+            </div>
         </div>
+            
+        </div>
+
         <div className="experience-divider">
 
         </div>

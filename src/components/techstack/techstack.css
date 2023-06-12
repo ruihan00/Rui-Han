@@ -10,13 +10,19 @@
 }
 
 .techstack-name {
-    font-weight: 400;
+    position:relative;
     text-align: center;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .none {
     visibility: hidden;
+}
+
+.experience-card-caret {
+    padding-top: 2px;
 }
 
 @media(min-width:850px) {

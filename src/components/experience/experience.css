@@ -13,7 +13,7 @@
     padding: 5vh;
 }
 .experience-divider {  
-    height: 20vh;
+    height: 10vh;
     background-color: #F2F3F5 ;
     position: relative;
     rotate: 2deg;
@@ -24,6 +24,7 @@
   
 .experience-inner {
     width: 50vw;
+    min-height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,7 +33,7 @@
     margin: 0 auto;
     z-index: 2;
     background-color: rgb(242, 243, 245, 0.7) ;
-
+    padding-bottom: 10vh;
 
 }
 
@@ -50,6 +51,18 @@
     color: rgb(0,0,0);
 }
 
+.experience-down-container {
+    padding-top: 30px;
+}
+
+.experience-down-btn {
+    color: rgba(82, 82, 82, 0.4);
+}
+
+.experience-down-btn:hover {
+    color: rgba(82, 82, 82, 0.8);
+    cursor: pointer;
+}
 
 @media(min-width:850px) {
 

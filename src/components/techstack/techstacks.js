@@ -9,6 +9,8 @@ const flutter = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flut
 const firebase = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
 const tensorflow = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
 const java = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+const postgressql = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+const figma = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
 const techstacks = {
     "python": python,
     "git": git,
@@ -20,7 +22,10 @@ const techstacks = {
     "flutter": flutter,
     "firebase": firebase,
     "tensorflow": tensorflow,
-    "java": java
+    "java": java,
+    "PostgreSQL": postgressql,
+    "figma": figma
+
 }
 
 export default techstacks

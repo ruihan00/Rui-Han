@@ -16,11 +16,14 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5vh;
+    flex-grow: 1;
 }
 
 .project-card-desc {
     text-align: left;
     font-weight: 400;
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 .project-card-img {
@@ -74,7 +77,36 @@
 
 @media(min-width:850px) {
     .project-card {
-        width: 20vw
+        width: 25vw;
+        height: 60vh;
+    }
+
+    .project-card-name {
+        font-size: 1.7vw;
+    }
+
+    .project-card-desc {
+        font-size: 1.2vw;
+    }
+
+    .project-card-link {
+        font-size: 1.2vw;
+    }
+
+    .project-card-techstack-container {
+        gap: 0.3vw;
+    }
+
+    .project-card-desc-container {
+        padding: 1vh 1vw;
+
+    }
+}
+
+@media(min-width:850px) {
+    .project-card {
+        width: 25vw;
+        height: 60vh;
     }
 
     .project-card-name {
@@ -102,7 +134,8 @@
 
 @media(max-width:850px) {
     .project-card {
-        width: 80vw
+        width: 80vw;
+        height: 50vh;
     }
 
     .project-card-name {

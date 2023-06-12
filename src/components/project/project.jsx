@@ -2,9 +2,9 @@ import React, {useState} from "react";
 import "./project.css"
 import projectData from "./projectData";
 import ProjectCard from "./projectCard";
-function Project() {
+function Project(props) {
     const [curr, setCurr] = useState(null)
-    return <div className="container">
+    return <div ref={props.refTag} className="container">
         <div className="project-container">
             <h1 className="project-header">Projects</h1>
             <div className="project-card-container">

@@ -63,7 +63,7 @@
 .experience-card-desc-line {
     display: flex;
     flex-direction: row;
-    gap: 3px;
+    gap: 10px;
 }
 
 .experience-card-techstacks {
@@ -84,7 +84,7 @@
     gap: 2vh;
     padding-right: 2vw;
     transition: all 1s ease-in-out;
-    max-height: 40vh;
+    max-height: 50vh;
 }
 
 .hide {

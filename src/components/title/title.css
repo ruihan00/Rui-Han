@@ -12,6 +12,7 @@ h1 {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     z-index: 1;
+    background-color: rgba(242, 243, 245, 0.7);
 }
 .title-container {
     display: flex;
@@ -21,6 +22,7 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: rgb(44, 51, 51);
+    flex-grow: 1;
 }
 
 .inner-container {
@@ -106,6 +108,23 @@ h1 {
     color: rgb(255,255,255);
 }
 
+.title-down-btn {
+    position: relative;
+    top: 20px;
+    color: rgb(196, 192, 192,0.4);
+    border-radius: 50%;
+    rotate: 3deg;
+}
+
+.title-down-btn:hover {
+    color: rgb(196, 192, 192,0.8);
+    cursor: pointer;
+}
+
+.title-down-container {
+    display: flex;
+    justify-content: center;
+}
 
 @media(min-width:850px) {
     .intro {
