@@ -107,6 +107,7 @@
     .project-card {
         width: 25vw;
         height: 60vh;
+
     }
 
     .project-card-name {
@@ -135,7 +136,7 @@
 @media(max-width:850px) {
     .project-card {
         width: 80vw;
-        height: 50vh;
+        height: 55vh;
     }
 
     .project-card-name {
