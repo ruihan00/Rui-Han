@@ -26,6 +26,9 @@ const figma =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg";
 const swift =
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg";
+
+const fastapi =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svgg";
 const techstacks = {
   python: python,
   git: git,
@@ -41,6 +44,7 @@ const techstacks = {
   PostgreSQL: postgressql,
   figma: figma,
   swift: swift,
+  fastapi: fastapi,
 };
 
 export default techstacks;

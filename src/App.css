@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  transition: 0.3s;
+}
+a {
+  transition: 0.3s;
+}

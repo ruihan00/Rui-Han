@@ -33,12 +33,13 @@ const govtech = {
   start: "May 2023",
   end: "Present",
   description: [
-    "Worked a team of 4 to develop a prototype on the National Career Health programme to aid in conceptualisation and demo of the use cases of a nationwide database",
-    "Worked in a team of 3 to revamp the design and utility of a user interface on behalf of SkillsFuture Singapore",
-    "Worked in a team of 7 to develop a prototype for a chatbot powered by large language models to aid in improving the career health of Singaporeans",
-    "Worked in a team of 3 to develop a chatbot for general HR inquiries to reduce the workload of the Ministry of Manpower HR department",
+    "Developed multiple functional prototypes of experimental features to facilitate discussions with stakeholders from MOM, WSG and SSG, to drive National Career Health projects, facilitating the alignment of industry initiatives with governmental goals.",
+    "Created various functional prototypes incorporating Generative AI to demonstrate its potential in advancing governmental objectives.",
+    "Collaborated with a team of seven to develop a functional prototype of a career health assistant using Gemini Large Language Models in Google AI Trailblazer within eight weeks.",
+    "Developed a functional prototype to simplify the workplace injury reporting process using Gemini Large Language Models.",
+    "Led a team of three to create a functional prototype HR assistant utilizing both Gemini and OpenAI Large Language Models, capable of answering HR-related queries and providing skills-related information to support National Career Health goals within MOM.",
   ],
-  techstacks: ["react", "PostgreSQL", "javascript", "figma"],
+  techstacks: ["react", "PostgreSQL", "javascript", "figma", "fastaapi"],
 };
 
 const experiences = [homepal, duinocode, govtech];

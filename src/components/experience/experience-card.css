@@ -20,8 +20,8 @@
   flex-direction: column;
   gap: 0.5vh;
 }
-.experience-card-company {
-  font-size: 2vw;
+.experience-card-title {
+  font-size: 1.7rem;
   font-weight: 600;
 }
 .experience-card-sub {
@@ -31,18 +31,22 @@
   align-items: center;
 }
 
-.experience-card-title {
+.experience-card-company {
+  font-size: 1.3rem;
   font-weight: 500;
+  opacity: 0.6;
 }
 
 .experience-card-date {
   opacity: 0.7;
+  font-size: 1.2rem;
 }
 
 .experience-card-line {
   border-right: 2px rgb(0, 0, 0, 0.5) solid;
   display: flex;
   align-items: flex-start;
+  margin: 0px 16px 0px 8px;
 }
 
 .experience-card-circle {
@@ -113,39 +117,39 @@
     margin: 0 2vw;
   }
 
-  .experience-card-company {
-    font-size: 1.7vw;
+  .experience-card-title {
+    font-size: 1.5rem;
   }
 
   .experience-card-date {
-    font-size: 1.2vw;
+    font-size: 1rem;
   }
-  .experience-card-title {
-    font-size: 1.2vw;
+  .experience-card- company {
+    font-size: 1rem;
   }
 
   .experience-card-detail {
-    font-size: 1.3vw;
+    font-size: 1rem;
   }
 
   .experience-expand-btn {
-    font-size: 1.2vw;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   .experience-card-container {
     width: 90vw;
   }
 
-  .experience-card-company {
-    font-size: 4vw;
-  }
   .experience-card-title {
-    font-size: 3vw;
+    font-size: 1rem;
+  }
+  .experience-card-company {
+    font-size: 0.8rem;
   }
   .experience-card-date {
-    font-size: 2.5vw;
+    font-size: 0.7rem;
   }
 
   .experience-card-line {
@@ -153,9 +157,9 @@
   }
 
   .experience-card-detail {
-    font-size: 3vw;
+    font-size: 0.7rem;
   }
   .experience-expand-btn {
-    font-size: 3vw;
+    font-size: 0.7rem;
   }
 }
